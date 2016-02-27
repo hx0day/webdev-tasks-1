@@ -1,6 +1,6 @@
 const fs = require('fs');
-const co = require("co");
-const r = require("co-request");
+const co = require('co');
+const r = require('co-request');
 const natural = require('natural');
 const all_word = require('./word.js');
 const oauth_token = fs.readFileSync('.key', 'utf-8');
